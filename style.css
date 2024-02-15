@@ -18,25 +18,20 @@ body{
 
 header{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     gap: 5px;
-    max-width: fit-content;
+    align-items: end;
+
 }
 
 header h1{
     margin-top: 0;
     background-color: yellow;
     font-size: x-large;
-    display: grid ;
-    padding: 25px;
+    padding: 25px ;
+
 }
 
-nav{
-    display: grid;
-    align-items: end;
-    justify-content: end;
-    grid-template-columns: auto auto ;
-}
 
 nav ul{
     display: grid;
