@@ -12,26 +12,65 @@
 }
 
 body{
-    margin: 0;
+    margin: 5px;
     display: grid;
 }
 
 header{
     display: grid;
-    margin-top: 0;
-    background-color: yellow;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    max-width: fit-content;
 }
 
+header h1{
+    margin-top: 0;
+    background-color: yellow;
+    font-size: x-large;
+    display: grid ;
+    padding: 25px;
+}
+
+nav{
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    grid-template-columns: auto auto ;
+}
 
 nav ul{
-    justify-content: center;
-    background-color: pink;
     display: grid;
+    margin-top: 0;
+    grid-template-columns: auto auto auto ;
+    background-color: pink;
+    gap: 5px;
 }
 
 nav a{
     text-decoration: none;
     color: black;
-    text-align: center;
+    font-size: x-large;
+    padding: 25px ;
+    gap: 5px;
+    grid-template-columns: auto auto auto ;
+}
+
+
+
+#posttitle h1{
+    background-color: lightblue;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    font-size: x-large;
+    padding: 25px ;
+}
+
+#sidebar h1{
+    background-color: lightblue;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    font-size: x-large;
+    padding: 25px ;
 }
