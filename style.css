@@ -1,0 +1,37 @@
+@media screen and (max-width: 860px) {
+    header{
+        float: none;
+        
+
+    }
+
+    header nav{
+        text-align: center;
+        width: 50%;
+    }
+}
+
+body{
+    margin: 0;
+    display: grid;
+}
+
+header{
+    display: grid;
+    margin-top: 0;
+    background-color: yellow;
+    grid-template-columns: auto auto;
+}
+
+
+nav ul{
+    justify-content: center;
+    background-color: pink;
+    display: grid;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
